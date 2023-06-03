@@ -1,0 +1,34 @@
+start with npm init to create project
+
+then install packages that you know you will need express, nodemon, dotenv, etc. 
+
+add gitignore, init git, and github
+
+*optional in package.json add type: module after description to use imports in nodejs
+
+create backend, controller, routes, middleware folders, create server.js, and dotenv
+
+add start and server scripts in package.json
+
+get a simple server running in server.js (add dotenv) use .env for port #
+
+test simple get request with postman app.get('/', (req, res) => res.send('Server is ready'))
+
+create a route and controller import and add route to server.js
+
+custom error middleware and import middleware to server.js
+add errormiddleware in server with app.use
+
+* on this project we started working on setting up userController next
+  to test contollers we may first just res with a message like below
+  // @ desc Register new user
+  // POST /api/users
+  // @access Public
+  const registerUser = asyncHandler(async (req, res) => {
+    res.status(200).json({message: 'Register User'})
+  })
+
+import controllers to proper route file then make routes for each controller
+*test on postman (create a collection)
+
+now setup Database

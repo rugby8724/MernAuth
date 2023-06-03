@@ -7,7 +7,7 @@ const notFound = (req, res, next) => {
   next(error)
 }
 
-// if you pass in error as the first param express knows this is your custom error middlewar
+// if you pass in error as the first param express knows this is your custom error middleware
 const errorHandler = (err, req, res, next) => {
   let statusCode = res.statusCode === 200 ? 500 : res.statusCode
   let message = err.message
