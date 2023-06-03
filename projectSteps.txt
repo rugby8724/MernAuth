@@ -31,4 +31,14 @@ add errormiddleware in server with app.use
 import controllers to proper route file then make routes for each controller
 *test on postman (create a collection)
 
-now setup Database
+now setup Database mongoDB or POSTGRES
+
+add connecting db creds to .env
+
+create config folder with db.js file
+
+create connectDB function in db.js then import it into server.js
+
+create model folder and model file
+
+now we can utilize the model in our controllers
