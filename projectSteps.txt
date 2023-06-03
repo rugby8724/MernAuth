@@ -39,6 +39,8 @@ create config folder with db.js file
 
 create connectDB function in db.js then import it into server.js
 
-create model folder and model file
+create model folder and model file *most likely creating user model first
 
 now we can utilize the model in our controllers
+
+* for user create util file to generate jwt token
