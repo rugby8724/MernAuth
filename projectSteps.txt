@@ -47,3 +47,5 @@ now we can utilize the model in our controllers
 * handle cookies for user
 
 create auth middleware
+
+add cookieparser
