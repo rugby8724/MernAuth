@@ -44,3 +44,6 @@ create model folder and model file *most likely creating user model first
 now we can utilize the model in our controllers
 
 * for user create util file to generate jwt token
+* handle cookies for user
+
+create auth middleware
