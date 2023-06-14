@@ -49,3 +49,10 @@ now we can utilize the model in our controllers
 create auth middleware
 
 add cookieparser
+then auth middleware
+
+work on adding logic to controllers 
+
+create frontend (this project we used vite to create react frontend)
+npm create vite@latest frontend
+*frontend is just the name of the folder we are putting everything in
