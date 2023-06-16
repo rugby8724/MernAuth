@@ -56,3 +56,30 @@ work on adding logic to controllers
 create frontend (this project we used vite to create react frontend)
 npm create vite@latest frontend
 *frontend is just the name of the folder we are putting everything in
+
+update vite config
+
+update root(backend) package.json scripts
+npm i -D concurrently (this lets up run both the backend and frontend with one script)
+update script to run concurrently
+
+
+clear App.jsx and write code
+
+clear index.css
+
+optional install react bootstrap and fontawesome to frontend npm i bootstrap react-bootstrap react-icons
+  in main.jsx import 'bootstrap/dist/css/bootstrap.min.css'
+
+add components folder
+next add header.jsx file to components
+
+add screens folder
+create HomeScreen.jsx
+
+install react router npm i react-router-dom react-router-bootstrap
+
+setup router in main.jsx (or index.js for create-react-app)
+
+
+
